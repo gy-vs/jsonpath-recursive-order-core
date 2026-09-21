@@ -1,0 +1,1 @@
+import{expect,it}from'vitest';import{parse,query}from'../src/index.js';it('queries',()=>expect(query({a:1},parse('$.a'))).toEqual([1]));
